@@ -1,0 +1,61 @@
+treatment_label,outcome_label,risk_control,risk_intervention,prev_diff,prev_ratio,outcome_group
+Pooled Intervention,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.450 (0.427, 0.472)","-0.055 (-0.099, -0.012)"," 0.890 ( 0.813,  0.974)",Past 1 Month
+Pooled Intervention,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.602 (0.581, 0.623)","-0.072 (-0.124, -0.017)"," 0.892 ( 0.822,  0.967)",Past 3 Months
+Pooled Intervention,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.345 (4.120, 4.571)","-0.929 (-1.405, -0.453)",----,Past 3 Months
+Pooled Intervention,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.850 (0.812, 0.889)","-0.175 (-0.257, -0.092)",----,Past 3 Months
+Pooled Intervention,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.184 (0.167, 0.201)","-0.071 (-0.105, -0.038)"," 0.719 ( 0.623,  0.829)",Past 3 Months
+Pooled Nutrition + NWSH,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.453 (0.425, 0.481)","-0.050 (-0.097, -0.002)"," 0.901 ( 0.815,  0.997)",Past 1 Month
+Pooled Nutrition + NWSH,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.597 (0.570, 0.625)","-0.074 (-0.124, -0.019)"," 0.887 ( 0.815,  0.965)",Past 3 Months
+Pooled Nutrition + NWSH,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.357 (4.029, 4.685)","-0.917 (-1.443, -0.390)",----,Past 3 Months
+Pooled Nutrition + NWSH,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.843 (0.791, 0.895)","-0.181 (-0.269, -0.092)",----,Past 3 Months
+Pooled Nutrition + NWSH,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.177 (0.157, 0.198)","-0.077 (-0.117, -0.041)"," 0.692 ( 0.587,  0.815)",Past 3 Months
+Pooled WSH + NWSH,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.457 (0.431, 0.483)","-0.049 (-0.094, -0.005)"," 0.903 ( 0.823,  0.991)",Past 1 Month
+Pooled WSH + NWSH,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.609 (0.582, 0.636)","-0.065 (-0.122, -0.009)"," 0.900 ( 0.825,  0.981)",Past 3 Months
+Pooled WSH + NWSH,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.328 (4.090, 4.567)","-0.960 (-1.454, -0.465)",----,Past 3 Months
+Pooled WSH + NWSH,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.854 (0.809, 0.898)","-0.174 (-0.260, -0.088)",----,Past 3 Months
+Pooled WSH + NWSH,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.187 (0.168, 0.206)","-0.069 (-0.107, -0.035)"," 0.730 ( 0.626,  0.851)",Past 3 Months
+Nutrition,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.434 (0.397, 0.471)","-0.070 (-0.123, -0.017)"," 0.860 ( 0.765,  0.967)",Past 1 Month
+Nutrition,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.587 (0.549, 0.626)","-0.083 (-0.143, -0.027)"," 0.875 ( 0.795,  0.962)",Past 3 Months
+Nutrition,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.381 (3.935, 4.827)","-0.873 (-1.463, -0.283)",----,Past 3 Months
+Nutrition,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.844 (0.770, 0.917)","-0.179 (-0.280, -0.077)",----,Past 3 Months
+Nutrition,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.178 (0.149, 0.206)","-0.077 (-0.117, -0.038)"," 0.692 ( 0.574,  0.834)",Past 3 Months
+WSH,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.442 (0.406, 0.479)","-0.066 (-0.115, -0.020)"," 0.867 ( 0.780,  0.964)",Past 1 Month
+WSH,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.611 (0.578, 0.645)","-0.066 (-0.127, -0.003)"," 0.901 ( 0.820,  0.990)",Past 3 Months
+WSH,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.323 (4.022, 4.624)","-0.960 (-1.481, -0.438)",----,Past 3 Months
+WSH,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.865 (0.802, 0.928)","-0.165 (-0.262, -0.067)",----,Past 3 Months
+WSH,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.197 (0.169, 0.225)","-0.060 (-0.100, -0.021)"," 0.767 ( 0.644,  0.913)",Past 3 Months
+NWSH,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.472 (0.434, 0.509)","-0.031 (-0.086,  0.020)"," 0.940 ( 0.841,  1.050)",Past 1 Month
+NWSH,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.606 (0.567, 0.646)","-0.067 (-0.129, -0.011)"," 0.900 ( 0.817,  0.990)",Past 3 Months
+NWSH,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.334 (3.948, 4.720)","-0.958 (-1.538, -0.379)",----,Past 3 Months
+NWSH,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.842 (0.776, 0.909)","-0.184 (-0.281, -0.086)",----,Past 3 Months
+NWSH,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.177 (0.152, 0.202)","-0.076 (-0.118, -0.034)"," 0.691 ( 0.569,  0.839)",Past 3 Months

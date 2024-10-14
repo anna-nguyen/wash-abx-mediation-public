@@ -1,0 +1,181 @@
+treatment_label,mediator_label,outcome_label,diff_control,diff_tr,mediator_group,outcome_group
+Pooled Intervention,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.016 (-0.049,  0.000)","-0.028 (-0.059, -0.002)",any_infection,Past 1 Month
+Pooled Intervention,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.006 (-0.016,  0.003)","-0.005 (-0.015,  0.003)",any_infection,Past 1 Month
+Pooled Intervention,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.006 (-0.016,  0.000)","-0.006 (-0.014, -0.001)",diarrhea,Past 1 Month
+Pooled Intervention,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.010,  0.001)","-0.007 (-0.018,  0.001)",ari,Past 1 Month
+Pooled Intervention,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.011,  0.000)","-0.008 (-0.017,  0.000)",ari,Past 1 Month
+Pooled Intervention,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.005,  0.002)","-0.004 (-0.011,  0.002)",ari,Past 1 Month
+Pooled Intervention,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.013,  0.003)","-0.003 (-0.009,  0.002)",ari,Past 1 Month
+Pooled Intervention,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","-0.007 (-0.028,  0.012)","-0.008 (-0.033,  0.015)",ari,Past 1 Month
+Pooled Intervention,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.017 (-0.053,  0.008)","-0.018 (-0.040, -0.003)",virus,Past 1 Month
+Pooled Intervention,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.033,  0.013)","-0.014 (-0.033,  0.002)",virus,Past 3 Months
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.009 (-0.022, -0.001)","-0.013 (-0.026, -0.005)",virus,Past 1 Month
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.021,  0.000)","-0.007 (-0.017, -0.001)",virus,Past 3 Months
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.024 (-0.057,  0.000)","-0.010 (-0.028,  0.004)",virus,Past 3 Months
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.016,  0.003)","-0.004 (-0.016,  0.002)",virus,Past 3 Months
+Pooled Intervention,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.008 (-0.027,  0.007)","-0.009 (-0.022,  0.001)",virus,Past 1 Month
+Pooled Nutrition + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.014 (-0.044,  0.003)","-0.013 (-0.034,  0.002)",any_infection,Past 1 Month
+Pooled Nutrition + NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.006 (-0.018,  0.001)","-0.005 (-0.014,  0.001)",any_infection,Past 1 Month
+Pooled Nutrition + NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.006 (-0.015,  0.000)","-0.005 (-0.014,  0.000)",diarrhea,Past 1 Month
+Pooled Nutrition + NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.002 (-0.008,  0.002)","-0.005 (-0.016,  0.003)",ari,Past 1 Month
+Pooled Nutrition + NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.009,  0.001)","-0.006 (-0.016,  0.001)",ari,Past 1 Month
+Pooled Nutrition + NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.005,  0.003)","-0.004 (-0.013,  0.004)",ari,Past 1 Month
+Pooled Nutrition + NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.013,  0.003)","-0.002 (-0.008,  0.002)",ari,Past 1 Month
+Pooled Nutrition + NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","-0.010 (-0.033,  0.010)","-0.010 (-0.032,  0.010)",ari,Past 1 Month
+Pooled Nutrition + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.015 (-0.048,  0.008)","-0.013 (-0.035,  0.002)",virus,Past 1 Month
+Pooled Nutrition + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.007 (-0.030,  0.010)","-0.007 (-0.024,  0.006)",virus,Past 3 Months
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.007 (-0.019,  0.000)","-0.011 (-0.025, -0.003)",virus,Past 1 Month
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.009 (-0.021, -0.001)","-0.007 (-0.020,  0.001)",virus,Past 3 Months
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.020 (-0.050,  0.002)","-0.001 (-0.017,  0.015)",virus,Past 3 Months
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.020,  0.003)"," 0.001 (-0.010,  0.008)",virus,Past 3 Months
+Pooled Nutrition + NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.008 (-0.027,  0.006)","-0.005 (-0.017,  0.006)",virus,Past 1 Month
+Pooled WSH + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.022 (-0.059,  0.000)","-0.052 (-0.105, -0.010)",any_infection,Past 1 Month
+Pooled WSH + NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.008 (-0.019,  0.001)","-0.011 (-0.025,  0.001)",any_infection,Past 1 Month
+Pooled WSH + NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.008 (-0.021, -0.001)","-0.009 (-0.020, -0.002)",diarrhea,Past 1 Month
+Pooled WSH + NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.014,  0.001)","-0.011 (-0.024,  0.001)",ari,Past 1 Month
+Pooled WSH + NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.005 (-0.013,  0.000)","-0.010 (-0.022,  0.000)",ari,Past 1 Month
+Pooled WSH + NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.002 (-0.008,  0.003)","-0.007 (-0.016,  0.001)",ari,Past 1 Month
+Pooled WSH + NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.005 (-0.016,  0.003)","-0.005 (-0.016,  0.003)",ari,Past 1 Month
+Pooled WSH + NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.026,  0.016)","-0.005 (-0.033,  0.021)",ari,Past 1 Month
+Pooled WSH + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.018 (-0.058,  0.013)","-0.026 (-0.054, -0.007)",virus,Past 1 Month
+Pooled WSH + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.005 (-0.029,  0.017)","-0.018 (-0.043,  0.002)",virus,Past 3 Months
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.012 (-0.027, -0.001)","-0.016 (-0.034, -0.005)",virus,Past 1 Month
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.020,  0.001)","-0.008 (-0.019,  0.001)",virus,Past 3 Months
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.022 (-0.049,  0.001)","-0.018 (-0.042,  0.002)",virus,Past 3 Months
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.004 (-0.017,  0.006)","-0.010 (-0.029,  0.001)",virus,Past 3 Months
+Pooled WSH + NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.008 (-0.030,  0.014)","-0.017 (-0.034, -0.003)",virus,Past 1 Month
+Nutrition,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.016 (-0.051,  0.005)","-0.010 (-0.034,  0.004)",any_infection,Past 1 Month
+Nutrition,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.002 (-0.012,  0.007)","-0.001 (-0.008,  0.005)",any_infection,Past 1 Month
+Nutrition,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.012,  0.003)","-0.002 (-0.011,  0.003)",diarrhea,Past 1 Month
+Nutrition,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.001 (-0.006,  0.003)","-0.003 (-0.015,  0.006)",ari,Past 1 Month
+Nutrition,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.010,  0.001)","-0.007 (-0.020,  0.004)",ari,Past 1 Month
+Nutrition,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.004,  0.003)","-0.002 (-0.010,  0.006)",ari,Past 1 Month
+Nutrition,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.015,  0.005)","-0.002 (-0.009,  0.003)",ari,Past 1 Month
+Nutrition,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","-0.008 (-0.029,  0.012)","-0.012 (-0.043,  0.017)",ari,Past 1 Month
+Nutrition,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.018 (-0.052,  0.007)","-0.014 (-0.040,  0.006)",virus,Past 1 Month
+Nutrition,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.007 (-0.030,  0.012)","-0.004 (-0.029,  0.016)",virus,Past 3 Months
+Nutrition,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.005 (-0.017,  0.001)","-0.012 (-0.028, -0.002)",virus,Past 1 Month
+Nutrition,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.009 (-0.021, -0.001)","-0.006 (-0.023,  0.004)",virus,Past 3 Months
+Nutrition,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.013 (-0.037,  0.000)"," 0.002 (-0.014,  0.018)",virus,Past 3 Months
+Nutrition,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.019,  0.002)"," 0.001 (-0.011,  0.008)",virus,Past 3 Months
+Nutrition,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.009 (-0.031,  0.006)","-0.002 (-0.018,  0.013)",virus,Past 1 Month
+WSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.022 (-0.063,  0.002)","-0.100 (-0.244, -0.004)",any_infection,Past 1 Month
+WSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.003 (-0.015,  0.006)","-0.006 (-0.028,  0.013)",any_infection,Past 1 Month
+WSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.006 (-0.018,  0.000)","-0.009 (-0.023,  0.000)",diarrhea,Past 1 Month
+WSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.002 (-0.010,  0.002)","-0.009 (-0.027,  0.005)",ari,Past 1 Month
+WSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.012,  0.001)","-0.011 (-0.028,  0.001)",ari,Past 1 Month
+WSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.001 (-0.008,  0.003)","-0.003 (-0.012,  0.002)",ari,Past 1 Month
+WSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.014,  0.006)","-0.005 (-0.020,  0.009)",ari,Past 1 Month
+WSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)"," 0.001 (-0.025,  0.026)"," 0.003 (-0.043,  0.047)",ari,Past 1 Month
+WSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.018 (-0.063,  0.015)","-0.038 (-0.089, -0.004)",virus,Past 1 Month
+WSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.038,  0.019)","-0.029 (-0.067,  0.001)",virus,Past 3 Months
+WSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.010 (-0.025,  0.001)","-0.017 (-0.040, -0.003)",virus,Past 1 Month
+WSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.020,  0.000)","-0.008 (-0.022,  0.002)",virus,Past 3 Months
+WSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.020 (-0.052,  0.004)","-0.029 (-0.068,  0.000)",virus,Past 3 Months
+WSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.019,  0.004)","-0.019 (-0.050, -0.004)",virus,Past 3 Months
+WSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.008 (-0.036,  0.020)","-0.023 (-0.053,  0.001)",virus,Past 1 Month
+NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","-0.015 (-0.050,  0.004)","-0.020 (-0.059,  0.006)",any_infection,Past 1 Month
+NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","-0.011 (-0.025, -0.001)","-0.010 (-0.026,  0.000)",any_infection,Past 1 Month
+NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.008 (-0.019, -0.001)","-0.010 (-0.026, -0.001)",diarrhea,Past 1 Month
+NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.011,  0.002)","-0.007 (-0.018,  0.001)",ari,Past 1 Month
+NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.003 (-0.011,  0.002)","-0.005 (-0.016,  0.003)",ari,Past 1 Month
+NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.001 (-0.006,  0.003)","-0.008 (-0.020,  0.004)",ari,Past 1 Month
+NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.005 (-0.015,  0.004)","-0.003 (-0.014,  0.003)",ari,Past 1 Month
+NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","-0.008 (-0.034,  0.015)","-0.008 (-0.035,  0.015)",ari,Past 1 Month
+NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.015 (-0.046,  0.005)","-0.014 (-0.042,  0.004)",virus,Past 1 Month
+NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","-0.006 (-0.030,  0.013)","-0.012 (-0.039,  0.006)",virus,Past 3 Months
+NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","-0.008 (-0.020,  0.000)","-0.012 (-0.032, -0.002)",virus,Past 1 Month
+NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","-0.008 (-0.020,  0.000)","-0.009 (-0.029,  0.004)",virus,Past 3 Months
+NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","-0.022 (-0.052,  0.003)","-0.003 (-0.034,  0.026)",virus,Past 3 Months
+NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.004 (-0.019,  0.006)","-0.001 (-0.025,  0.011)",virus,Past 3 Months
+NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","-0.007 (-0.028,  0.006)","-0.008 (-0.025,  0.004)",virus,Past 1 Month

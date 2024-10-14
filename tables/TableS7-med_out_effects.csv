@@ -1,0 +1,77 @@
+mediator_label,outcome_label,risk_control,risk_intervention,mean_diff,prev_ratio,mediator_group,outcome_group
+"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","0.426 (0.387, 0.465)","0.618 (0.588, 0.649)",----," 1.435 ( 1.299, 1.585)",any_infection,Past 1 Month
+"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","0.395 (0.374, 0.416)","0.559 (0.525, 0.593)",----," 1.311 ( 1.220, 1.409)",any_infection,Past 1 Month
+Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","0.444 (0.424, 0.465)","0.630 (0.569, 0.692)",----," 1.291 ( 1.170, 1.425)",diarrhea,Past 1 Month
+ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","0.423 (0.402, 0.444)","0.620 (0.575, 0.664)",----," 1.326 ( 1.222, 1.440)",ari,Past 1 Month
+ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","0.435 (0.414, 0.456)","0.679 (0.623, 0.735)",----," 1.407 ( 1.283, 1.542)",ari,Past 1 Month
+Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","0.454 (0.433, 0.474)","0.695 (0.595, 0.794)",----," 1.470 ( 1.274, 1.696)",ari,Past 1 Month
+Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","0.422 (0.401, 0.443)","0.564 (0.527, 0.602)",----," 1.268 ( 1.176, 1.368)",ari,Past 1 Month
+Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","0.458 (0.427, 0.490)","0.677 (0.635, 0.719)",----," 1.475 ( 1.337, 1.626)",ari,Past 1 Month
+Any Enteric Viruses,"Any Antibiotics
+(Past Month)","0.521 (0.485, 0.556)","0.618 (0.578, 0.658)",----," 1.168 ( 1.058, 1.288)",virus,Past 1 Month
+Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","0.698 (0.664, 0.733)","0.753 (0.714, 0.791)",----," 1.080 ( 1.003, 1.162)",virus,Past 3 Months
+Any Enteric Viruses,"Days of Antibiotic Use
+(Past 3 Months)","5.536 (5.180, 5.893)","5.804 (5.276, 6.333)"," 0.231 (-0.380, 0.843)",----,virus,Past 3 Months
+Any Enteric Viruses,"Episodes of Antibiotic Use
+(Past 3 Months)","1.076 (1.010, 1.142)","1.170 (1.083, 1.257)"," 0.077 (-0.033, 0.187)",----,virus,Past 3 Months
+Any Enteric Viruses,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.269 (0.240, 0.299)","0.308 (0.264, 0.353)",----," 1.103 ( 0.925, 1.316)",virus,Past 3 Months
+Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","0.452 (0.431, 0.472)","0.752 (0.667, 0.838)",----," 1.421 ( 1.249, 1.616)",virus,Past 1 Month
+Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","0.610 (0.589, 0.632)","0.829 (0.757, 0.900)",----," 1.179 ( 1.075, 1.292)",virus,Past 3 Months
+Any Enteric Virus with Diarrhea,"Days of Antibiotic Use
+(Past 3 Months)","4.484 (4.258, 4.709)","6.625 (5.391, 7.859)"," 1.158 (-0.061, 2.377)",----,virus,Past 3 Months
+Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","0.874 (0.835, 0.914)","1.343 (1.164, 1.522)"," 0.265 ( 0.076, 0.453)",----,virus,Past 3 Months
+Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.195 (0.177, 0.213)","0.362 (0.273, 0.451)",----," 1.325 ( 1.006, 1.745)",virus,Past 3 Months
+Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","0.521 (0.485, 0.556)","0.618 (0.578, 0.658)",----," 1.085 ( 1.010, 1.166)",virus,Past 1 Month
+Number of Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","0.698 (0.664, 0.733)","0.753 (0.714, 0.791)",----," 1.031 ( 0.976, 1.090)",virus,Past 3 Months
+Number of Enteric Viruses,"Days of Antibiotic Use
+(Past 3 Months)","5.536 (5.180, 5.893)","5.804 (5.276, 6.333)"," 0.018 (-0.462, 0.498)",----,virus,Past 3 Months
+Number of Enteric Viruses,"Episodes of Antibiotic Use
+(Past 3 Months)","1.076 (1.010, 1.142)","1.170 (1.083, 1.257)"," 0.020 (-0.061, 0.102)",----,virus,Past 3 Months
+Number of Enteric Viruses,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.269 (0.240, 0.299)","0.308 (0.264, 0.353)",----," 1.030 ( 0.902, 1.176)",virus,Past 3 Months
+Adenovirus 40/41,"Any Antibiotics
+(Past Month)","0.557 (0.528, 0.585)","0.569 (0.476, 0.661)",----," 1.026 ( 0.864, 1.217)",virus,Past 1 Month
+Adenovirus 40/41,"Any Antibiotics
+(Past 3 Months)","0.720 (0.693, 0.747)","0.725 (0.660, 0.789)",----," 1.006 ( 0.907, 1.116)",virus,Past 3 Months
+Adenovirus 40/41,"Days of Antibiotic Use
+(Past 3 Months)","5.684 (5.375, 5.993)","5.444 (4.518, 6.370)","-0.129 (-1.118, 0.861)",----,virus,Past 3 Months
+Adenovirus 40/41,"Episodes of Antibiotic Use
+(Past 3 Months)","1.107 (1.055, 1.159)","1.183 (0.991, 1.376)"," 0.078 (-0.122, 0.278)",----,virus,Past 3 Months
+Adenovirus 40/41,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.282 (0.257, 0.307)","0.312 (0.202, 0.422)",----," 1.119 ( 0.793, 1.578)",virus,Past 3 Months
+Norovirus GII,"Any Antibiotics
+(Past Month)","0.551 (0.522, 0.580)","0.609 (0.542, 0.676)",----," 1.089 ( 0.956, 1.240)",virus,Past 1 Month
+Norovirus GII,"Any Antibiotics
+(Past 3 Months)","0.719 (0.693, 0.746)","0.734 (0.680, 0.789)",----," 1.018 ( 0.932, 1.112)",virus,Past 3 Months
+Norovirus GII,"Days of Antibiotic Use
+(Past 3 Months)","5.666 (5.370, 5.963)","5.728 (4.937, 6.519)"," 0.012 (-0.810, 0.833)",----,virus,Past 3 Months
+Norovirus GII,"Episodes of Antibiotic Use
+(Past 3 Months)","1.114 (1.061, 1.167)","1.121 (1.000, 1.241)","-0.018 (-0.153, 0.117)",----,virus,Past 3 Months
+Norovirus GII,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.282 (0.257, 0.308)","0.295 (0.229, 0.360)",----," 1.003 ( 0.794, 1.268)",virus,Past 3 Months
+Sapovirus,"Any Antibiotics
+(Past Month)","0.550 (0.522, 0.579)","0.613 (0.551, 0.675)",----," 1.104 ( 0.980, 1.245)",virus,Past 1 Month
+Sapovirus,"Any Antibiotics
+(Past 3 Months)","0.715 (0.690, 0.741)","0.751 (0.688, 0.815)",----," 1.058 ( 0.967, 1.157)",virus,Past 3 Months
+Sapovirus,"Days of Antibiotic Use
+(Past 3 Months)","5.653 (5.332, 5.975)","5.663 (4.763, 6.562)"," 0.082 (-0.860, 1.023)",----,virus,Past 3 Months
+Sapovirus,"Episodes of Antibiotic Use
+(Past 3 Months)","1.110 (1.053, 1.166)","1.142 (1.010, 1.274)"," 0.030 (-0.116, 0.176)",----,virus,Past 3 Months
+Sapovirus,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.281 (0.254, 0.308)","0.302 (0.232, 0.371)",----," 1.062 ( 0.829, 1.362)",virus,Past 3 Months

@@ -1,0 +1,11 @@
+treatment_label,outcome_label,risk_control,risk_intervention,prev_diff,prev_ratio,outcome_group
+Pooled Intervention,"Any Antibiotics
+(Past Month)","0.495 (0.459, 0.530)","0.450 (0.427, 0.472)","-0.055 (-0.099, -0.012)"," 0.890 ( 0.813,  0.974)",Past 1 Month
+Pooled Intervention,"Any Antibiotics
+(Past 3 Months)","0.665 (0.618, 0.713)","0.602 (0.581, 0.623)","-0.072 (-0.124, -0.017)"," 0.892 ( 0.822,  0.967)",Past 3 Months
+Pooled Intervention,"Days of Antibiotic Use
+(Past 3 Months)","5.167 (4.724, 5.610)","4.345 (4.120, 4.571)","-0.929 (-1.405, -0.453)",----,Past 3 Months
+Pooled Intervention,"Episodes of Antibiotic Use
+(Past 3 Months)","1.004 (0.929, 1.079)","0.850 (0.812, 0.889)","-0.175 (-0.257, -0.092)",----,Past 3 Months
+Pooled Intervention,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","0.246 (0.214, 0.279)","0.184 (0.167, 0.201)","-0.071 (-0.105, -0.038)"," 0.719 ( 0.623,  0.829)",Past 3 Months

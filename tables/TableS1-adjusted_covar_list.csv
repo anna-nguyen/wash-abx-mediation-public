@@ -1,0 +1,181 @@
+treatment_label,mediator_label,outcome_label,covars
+Pooled Intervention,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Intervention,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Distance to water source"
+Pooled Intervention,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Intervention,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)",Child's sex
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","Child's sex, Mother's height, Household Wealth Index"
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Mother's height, Mother's education, Number of individuals in household under age 18, Household Wall Material, Household Wealth Index"
+Pooled Intervention,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Measurement date, Child's sex, Mother's height, Mother's education, Number of individuals in household under age 18"
+Pooled Intervention,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","Child's sex, Mother's height, Household Wealth Index"
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Measurement date, Child's sex, Mother's education, Number of individuals in household under age 18, Household Wealth Index"
+Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Measurement date, Child's sex, Mother's education, Number of individuals in household under age 18"
+Pooled Nutrition + NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+Pooled WSH + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled WSH + NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","Child's sex, Distance to water source, Household Wall Material"
+Pooled WSH + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Pooled WSH + NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)",Number of individuals in compound
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material, Household Wealth Index"
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","Child's sex, Household Wealth Index"
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Household Wealth Index"
+Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Number of individuals in household under age 18"
+Pooled WSH + NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","Child's sex, Household Wall Material"
+Nutrition,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","Measurement date, Number of individuals in compound"
+Nutrition,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Mother's age"
+Nutrition,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","Measurement date, Number of individuals in compound"
+Nutrition,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Number of individuals in compound"
+Nutrition,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)",Measurement date
+Nutrition,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Measurement date, Birth order, Mother's age, Household Floor Material"
+Nutrition,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","Child's sex, Mother's age, Household Floor Material, Household Wealth Index"
+Nutrition,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Measurement date, Child's sex, Mother's age, Mother's education, Household Floor Material"
+Nutrition,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Measurement date, Mother's education, Number of individuals in household under age 18, Household Floor Material"
+Nutrition,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Number of individuals in compound"
+WSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)",Household Wall Material
+WSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)",Household Wealth Index
+WSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)",
+WSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)",Household Wall Material
+WSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)",
+WSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Mother's age, Household Wealth Index"
+WSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)",Household Wealth Index
+WSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Household Wealth Index"
+WSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Number of individuals in household under age 18"
+WSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)",Household Wall Material
+NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Distance to water source, Household Wall Material"
+NWSH,"Diarrhea, Fever, or ARI","Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Diarrhea (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,ARI (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,ARI with Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Difficulty Breathing (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Fever (Past 7 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Fever (Past 14 Days),"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Distance to water source, Household Wall Material"
+NWSH,Any Enteric Viruses,"Any Antibiotics
+(Past 3 Months)",Child's sex
+NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex"
+NWSH,Any Enteric Virus with Diarrhea,"Any Antibiotics
+(Past 3 Months)","Child's sex, Household Wealth Index"
+NWSH,Any Enteric Virus with Diarrhea,"Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Number of individuals in household under age 18, Household Wealth Index"
+NWSH,Any Enteric Virus with Diarrhea,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","Child's sex, Number of individuals in household under age 18"
+NWSH,Number of Enteric Viruses,"Any Antibiotics
+(Past Month)","Measurement date, Child's sex, Distance to water source, Household Wall Material"

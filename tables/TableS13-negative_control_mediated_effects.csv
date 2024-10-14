@@ -1,0 +1,61 @@
+treatment_label,mediator_label,outcome_label,prev_diff,mediator_group,outcome_group
+Pooled Intervention,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.001 (-0.004, 0.001)",NA,Past 1 Month
+Pooled Intervention,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.002 (-0.006, 0.001)",NA,Past 3 Months
+Pooled Intervention,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.006 (-0.035, 0.018)",NA,Past 3 Months
+Pooled Intervention,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)","-0.001 (-0.006, 0.004)",NA,Past 3 Months
+Pooled Intervention,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.001, 0.002)",NA,Past 3 Months
+Pooled Nutrition + NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.003, 0.002)",NA,Past 1 Month
+Pooled Nutrition + NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.001 (-0.005, 0.002)",NA,Past 3 Months
+Pooled Nutrition + NWSH,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.006 (-0.047, 0.032)",NA,Past 3 Months
+Pooled Nutrition + NWSH,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.005, 0.004)",NA,Past 3 Months
+Pooled Nutrition + NWSH,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.002, 0.002)",NA,Past 3 Months
+Pooled WSH + NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.001 (-0.007, 0.002)",NA,Past 1 Month
+Pooled WSH + NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.002 (-0.008, 0.001)",NA,Past 3 Months
+Pooled WSH + NWSH,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.016 (-0.066, 0.014)",NA,Past 3 Months
+Pooled WSH + NWSH,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.006, 0.005)",NA,Past 3 Months
+Pooled WSH + NWSH,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.001 (-0.001, 0.004)",NA,Past 3 Months
+Nutrition,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.003, 0.004)",NA,Past 1 Month
+Nutrition,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.001 (-0.007, 0.004)",NA,Past 3 Months
+Nutrition,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.012 (-0.090, 0.052)",NA,Past 3 Months
+Nutrition,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.011, 0.009)",NA,Past 3 Months
+Nutrition,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.004, 0.003)",NA,Past 3 Months
+WSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)","-0.004 (-0.011, 0.001)",NA,Past 1 Month
+WSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.003 (-0.010, 0.001)",NA,Past 3 Months
+WSH,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.029 (-0.099, 0.011)",NA,Past 3 Months
+WSH,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)","-0.002 (-0.011, 0.006)",NA,Past 3 Months
+WSH,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.002 (-0.001, 0.005)",NA,Past 3 Months
+NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past Month)"," 0.000 (-0.003, 0.002)",NA,Past 1 Month
+NWSH,Bruising (Past 7 Days),"Any Antibiotics
+(Past 3 Months)","-0.001 (-0.006, 0.002)",NA,Past 3 Months
+NWSH,Bruising (Past 7 Days),"Days of Antibiotic Use
+(Past 3 Months)","-0.013 (-0.075, 0.028)",NA,Past 3 Months
+NWSH,Bruising (Past 7 Days),"Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.006, 0.007)",NA,Past 3 Months
+NWSH,Bruising (Past 7 Days),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.003, 0.003)",NA,Past 3 Months
