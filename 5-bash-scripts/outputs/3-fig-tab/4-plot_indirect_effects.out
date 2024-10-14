@@ -1,3 +1,0 @@
-dyld[40653]: Library not loaded: @rpath/libreadline.6.2.dylib
-  Referenced from: <185433D7-8B40-31AA-8BD9-465D23C57257> /Users/annanguyen/opt/anaconda3/lib/R/lib/libR.dylib
-  Reason: tried: '/Users/annanguyen/opt/anaconda3/lib/R/lib/../../libreadline.6.2.dylib' (no such file), '/Users/annanguyen/opt/anaconda3/lib/R/bin/exec/../../../libreadline.6.2.dylib' (no such file), '/Users/annanguyen/opt/anaconda3/lib/R/bin/exec/../../../libreadline.6.2.dylib' (no such file), '/Users/annanguyen/opt/anaconda3/lib/R/lib/libreadline.6.2.dylib' (no such file), '/Users/annanguyen/opt/anaconda3/lib/libreadline.6.2.dylib' (no such file), '/Users/annanguyen/opt/anaconda3/libreadline.6.2.dylib' (no such file)
