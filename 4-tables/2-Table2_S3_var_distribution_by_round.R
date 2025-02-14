@@ -6,11 +6,10 @@ source(here::here("0-config.R"))
 
 merged_df = readRDS(merged_df_filepath)
 missing <- merged_df %>% filter(if_any(starts_with("pos"), is.na) | if_any(ends_with("7d"), is.na))
-# Table 3: Same as (1), but separated by children with data at 14 months only vs children with data at 28 months. In the merged dataset, round = 2 for data collected at 14 months, round = 3 for data collected at 28. 
 merged_df <- merged_df %>% mutate(data_round = ifelse(round == 2, "data_14mo", "data_28mo"))
 
 # Processing numeric variables
-tableS3a <- merged_df %>%
+table2a <- merged_df %>%
   select(tr_pooled, data_round, agem, momage, momheight,
          Nlt18, Ncomp, watmin, n_virus, abdays, abtimes) %>%
   group_by(tr_pooled, data_round) %>%
@@ -43,7 +42,7 @@ tableS3a <- merged_df %>%
   ) %>% mutate(value = "")
 
 # Processing binary numeric variables
-tableS3b <- merged_df %>% 
+table2b <- merged_df %>% 
   select(tr_pooled, data_round, roof, walls, floor, 
          diar7d, ari7d, ari_fever7d, fever7d, pos_virus, 
          any_infection_14mo, any_infection_14_28mo,
@@ -78,7 +77,7 @@ tableS3b <- merged_df %>%
   ) %>% mutate(value = "")
 
 # Processing non-numeric variables
-tableS3c <- merged_df %>%
+table2c <- merged_df %>%
   select(tr_pooled, data_round, timeptsub, sex, birthord, momedu, hfiacatrev, HHwealth_quart) %>%
   pivot_longer(cols = c(-data_round, -tr_pooled), names_to = "variable", values_to = "value") %>%
   group_by(tr_pooled, data_round, variable, value) %>%
@@ -114,7 +113,7 @@ tr_row <- merged_df %>% group_by(tr_pooled, data_round) %>% summarize() %>%
   mutate(value = "", variable = "tr_pooled")
 
 # Combining numeric and non-numeric summaries
-tableS3 <- rbind(tr_row, round_row, N_row, tableS3a, tableS3b, tableS3c) %>% 
+table2 <- rbind(tr_row, round_row, N_row, table2a, table2b, table2c) %>% 
   select(variable, value, 
          pooled_tr_data_14mo, pooled_tr_data_28mo,
          Control_data_14mo, Control_data_28mo)
@@ -122,11 +121,11 @@ tableS3 <- rbind(tr_row, round_row, N_row, tableS3a, tableS3b, tableS3c) %>%
 order <- c("tr_pooled", "data_round", "N", "timeptsub", "agem", "sex", "birthord", "momage", "momheight", "momedu", "hfiacatrev", "Nlt18", "Ncomp", 
            "watmin", "roof", "walls", "floor", "HHwealth_quart", "any_infection_14mo", "any_infection_14_28mo", "diar7d", "ari7d", "ari_fever7d", "fever7d", "n_virus", "pos_virus", "ablastmo", "abany", "abdays", "abtimes", "abmult")
 
-tableS3 <- tableS3 %>%
+table2 <- table2 %>%
   mutate(variable = factor(variable, levels = order)) %>%
   arrange(variable)
 
-tableS3 <- tableS3 %>%
+table2 <- table2 %>%
   mutate(variable = case_when(
     variable == "tr_pooled" ~ "Intervention Pool",
     variable == "data_round" ~ "Data Collection Round",
@@ -164,4 +163,4 @@ tableS3 <- tableS3 %>%
     TRUE ~ variable  # Keep the original value if no match is found
   ))
 
-write.csv(tableS3, here("tables", "TableS3-variables_by_meas_round.csv"))
+write.csv(table2, here("tables", "Table2-variables_by_meas_round.csv"))

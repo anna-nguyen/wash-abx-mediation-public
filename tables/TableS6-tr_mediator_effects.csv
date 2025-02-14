@@ -1,5 +1,5 @@
 treatment_label,mediator_label,risk_control,risk_intervention,mean_diff,prev_ratio,mediator_group
-Pooled Intervention,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.649 (0.617, 0.680)",----," 0.844 ( 0.773,  0.921)",any_infection
+Pooled Intervention,"Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.647 (0.616, 0.678)",----," 0.862 ( 0.785,  0.946)",any_infection
 Pooled Intervention,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.397 (0.378, 0.417)",----," 0.913 ( 0.833,  1.001)",any_infection
 Pooled Intervention,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.083 (0.069, 0.097)",----," 0.671 ( 0.508,  0.886)",diarrhea
 Pooled Intervention,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.188 (0.172, 0.204)",----," 0.835 ( 0.702,  0.994)",ari
@@ -7,41 +7,69 @@ Pooled Intervention,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.100 (
 Pooled Intervention,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.029 (0.022, 0.037)",----," 0.706 ( 0.449,  1.110)",ari
 Pooled Intervention,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.271 (0.253, 0.290)",----," 0.925 ( 0.819,  1.044)",ari
 Pooled Intervention,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.421 (0.388, 0.453)",----," 0.936 ( 0.810,  1.081)",ari
-Pooled Intervention,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.313 (0.277, 0.350)",----," 0.579 ( 0.492,  0.682)",virus
-Pooled Intervention,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.027 (0.021, 0.033)",----," 0.351 ( 0.241,  0.510)",virus
-Pooled Intervention,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.377 (0.327, 0.427)","-0.238 (-0.341, -0.135)",----,virus
-Pooled Intervention,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.070 (0.047, 0.094)",----," 0.602 ( 0.352,  1.027)",virus
+Pooled Intervention,Any Enteric Viruses,"0.495 (0.423, 0.568)","0.306 (0.271, 0.341)",----," 0.595 ( 0.500,  0.709)",virus
+Pooled Intervention,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.027 (0.021, 0.033)",----," 0.351 ( 0.242,  0.510)",virus
+Pooled Intervention,Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.368 (0.319, 0.417)","-0.215 (-0.321, -0.110)",----,virus
+Pooled Intervention,Adenovirus 40/41,"0.103 (0.047, 0.159)","0.070 (0.046, 0.093)",----," 0.596 ( 0.350,  1.013)",virus
 Pooled Intervention,Norovirus GII,"0.191 (0.146, 0.237)","0.133 (0.107, 0.160)",----," 0.669 ( 0.481,  0.930)",virus
-Pooled Intervention,Sapovirus,"0.195 (0.142, 0.248)","0.101 (0.080, 0.122)",----," 0.507 ( 0.356,  0.721)",virus
-Pooled Nutrition + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.658 (0.620, 0.696)",----," 0.854 ( 0.781,  0.934)",any_infection
-Pooled Nutrition + NWSH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.384 (0.359, 0.409)",----," 0.883 ( 0.799,  0.976)",any_infection
-Pooled Nutrition + NWSH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.086 (0.068, 0.103)",----," 0.689 ( 0.514,  0.924)",diarrhea
-Pooled Nutrition + NWSH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.180 (0.160, 0.199)",----," 0.803 ( 0.656,  0.982)",ari
-Pooled Nutrition + NWSH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.097 (0.083, 0.112)",----," 0.726 ( 0.573,  0.921)",ari
-Pooled Nutrition + NWSH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.030 (0.020, 0.039)",----," 0.719 ( 0.452,  1.143)",ari
-Pooled Nutrition + NWSH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.264 (0.241, 0.286)",----," 0.899 ( 0.790,  1.024)",ari
-Pooled Nutrition + NWSH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.409 (0.371, 0.447)",----," 0.900 ( 0.778,  1.041)",ari
-Pooled Nutrition + NWSH,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.333 (0.288, 0.379)",----," 0.623 ( 0.524,  0.739)",virus
-Pooled Nutrition + NWSH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.028 (0.021, 0.035)",----," 0.368 ( 0.247,  0.549)",virus
-Pooled Nutrition + NWSH,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.408 (0.345, 0.471)","-0.202 (-0.307, -0.098)",----,virus
-Pooled Nutrition + NWSH,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.077 (0.048, 0.106)",----," 0.667 ( 0.391,  1.140)",virus
-Pooled Nutrition + NWSH,Norovirus GII,"0.191 (0.146, 0.237)","0.156 (0.121, 0.192)",----," 0.799 ( 0.570,  1.119)",virus
-Pooled Nutrition + NWSH,Sapovirus,"0.195 (0.142, 0.248)","0.109 (0.085, 0.134)",----," 0.554 ( 0.378,  0.814)",virus
-Pooled WSH + NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.640 (0.603, 0.677)",----," 0.829 ( 0.751,  0.916)",any_infection
-Pooled WSH + NWSH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.389 (0.366, 0.412)",----," 0.894 ( 0.812,  0.985)",any_infection
-Pooled WSH + NWSH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.075 (0.059, 0.091)",----," 0.605 ( 0.441,  0.829)",diarrhea
-Pooled WSH + NWSH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.185 (0.164, 0.205)",----," 0.818 ( 0.690,  0.968)",ari
-Pooled WSH + NWSH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.101 (0.086, 0.116)",----," 0.744 ( 0.605,  0.915)",ari
-Pooled WSH + NWSH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.027 (0.018, 0.036)",----," 0.649 ( 0.393,  1.070)",ari
-Pooled WSH + NWSH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.272 (0.248, 0.296)",----," 0.927 ( 0.814,  1.055)",ari
-Pooled WSH + NWSH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.425 (0.384, 0.466)",----," 0.964 ( 0.827,  1.124)",ari
-Pooled WSH + NWSH,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.304 (0.264, 0.344)",----," 0.559 ( 0.465,  0.673)",virus
-Pooled WSH + NWSH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.024 (0.016, 0.031)",----," 0.302 ( 0.193,  0.473)",virus
-Pooled WSH + NWSH,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.360 (0.305, 0.415)","-0.262 (-0.375, -0.148)",----,virus
-Pooled WSH + NWSH,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.064 (0.041, 0.087)",----," 0.513 ( 0.279,  0.945)",virus
-Pooled WSH + NWSH,Norovirus GII,"0.191 (0.146, 0.237)","0.121 (0.093, 0.149)",----," 0.610 ( 0.423,  0.879)",virus
-Pooled WSH + NWSH,Sapovirus,"0.195 (0.142, 0.248)","0.102 (0.075, 0.129)",----," 0.509 ( 0.353,  0.734)",virus
-Nutrition,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.667 (0.614, 0.720)",----," 0.865 ( 0.783,  0.955)",any_infection
+Pooled Intervention,Sapovirus,"0.185 (0.134, 0.237)","0.100 (0.079, 0.121)",----," 0.528 ( 0.369,  0.754)",virus
+"Pooled Nutrition
+and N+WASH","Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.654 (0.617, 0.691)",----," 0.869 ( 0.790,  0.956)",any_infection
+"Pooled Nutrition
+and N+WASH","Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.384 (0.359, 0.409)",----," 0.883 ( 0.799,  0.976)",any_infection
+"Pooled Nutrition
+and N+WASH",Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.086 (0.068, 0.103)",----," 0.689 ( 0.514,  0.924)",diarrhea
+"Pooled Nutrition
+and N+WASH",ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.180 (0.160, 0.199)",----," 0.803 ( 0.656,  0.982)",ari
+"Pooled Nutrition
+and N+WASH",ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.097 (0.083, 0.112)",----," 0.726 ( 0.573,  0.921)",ari
+"Pooled Nutrition
+and N+WASH",Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.030 (0.020, 0.039)",----," 0.719 ( 0.452,  1.143)",ari
+"Pooled Nutrition
+and N+WASH",Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.264 (0.241, 0.286)",----," 0.899 ( 0.790,  1.024)",ari
+"Pooled Nutrition
+and N+WASH",Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.409 (0.371, 0.447)",----," 0.900 ( 0.778,  1.041)",ari
+"Pooled Nutrition
+and N+WASH",Any Enteric Viruses,"0.495 (0.423, 0.568)","0.326 (0.282, 0.371)",----," 0.643 ( 0.533,  0.776)",virus
+"Pooled Nutrition
+and N+WASH",Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.028 (0.021, 0.035)",----," 0.369 ( 0.247,  0.549)",virus
+"Pooled Nutrition
+and N+WASH",Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.399 (0.338, 0.461)","-0.179 (-0.287, -0.070)",----,virus
+"Pooled Nutrition
+and N+WASH",Adenovirus 40/41,"0.103 (0.047, 0.159)","0.076 (0.047, 0.105)",----," 0.661 ( 0.389,  1.126)",virus
+"Pooled Nutrition
+and N+WASH",Norovirus GII,"0.191 (0.146, 0.237)","0.156 (0.121, 0.192)",----," 0.799 ( 0.570,  1.119)",virus
+"Pooled Nutrition
+and N+WASH",Sapovirus,"0.185 (0.134, 0.237)","0.108 (0.084, 0.133)",----," 0.579 ( 0.392,  0.855)",virus
+"Pooled WASH
+and N+WASH","Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.638 (0.601, 0.675)",----," 0.849 ( 0.765,  0.943)",any_infection
+"Pooled WASH
+and N+WASH","Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.389 (0.366, 0.412)",----," 0.894 ( 0.812,  0.985)",any_infection
+"Pooled WASH
+and N+WASH",Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.075 (0.059, 0.091)",----," 0.605 ( 0.441,  0.829)",diarrhea
+"Pooled WASH
+and N+WASH",ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.185 (0.164, 0.205)",----," 0.818 ( 0.690,  0.968)",ari
+"Pooled WASH
+and N+WASH",ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.101 (0.086, 0.116)",----," 0.744 ( 0.605,  0.915)",ari
+"Pooled WASH
+and N+WASH",Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.027 (0.018, 0.036)",----," 0.649 ( 0.393,  1.070)",ari
+"Pooled WASH
+and N+WASH",Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.272 (0.248, 0.296)",----," 0.927 ( 0.814,  1.055)",ari
+"Pooled WASH
+and N+WASH",Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.425 (0.384, 0.466)",----," 0.964 ( 0.827,  1.124)",ari
+"Pooled WASH
+and N+WASH",Any Enteric Viruses,"0.495 (0.423, 0.568)","0.294 (0.256, 0.333)",----," 0.571 ( 0.469,  0.696)",virus
+"Pooled WASH
+and N+WASH",Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.024 (0.016, 0.031)",----," 0.302 ( 0.193,  0.474)",virus
+"Pooled WASH
+and N+WASH",Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.349 (0.296, 0.403)","-0.240 (-0.356, -0.125)",----,virus
+"Pooled WASH
+and N+WASH",Adenovirus 40/41,"0.103 (0.047, 0.159)","0.063 (0.040, 0.086)",----," 0.508 ( 0.277,  0.934)",virus
+"Pooled WASH
+and N+WASH",Norovirus GII,"0.191 (0.146, 0.237)","0.121 (0.093, 0.149)",----," 0.610 ( 0.423,  0.879)",virus
+"Pooled WASH
+and N+WASH",Sapovirus,"0.185 (0.134, 0.237)","0.100 (0.074, 0.127)",----," 0.528 ( 0.364,  0.766)",virus
+Nutrition,"Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.665 (0.612, 0.717)",----," 0.882 ( 0.794,  0.979)",any_infection
 Nutrition,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.415 (0.381, 0.448)",----," 0.955 ( 0.853,  1.070)",any_infection
 Nutrition,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.101 (0.074, 0.128)",----," 0.807 ( 0.581,  1.121)",diarrhea
 Nutrition,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.195 (0.170, 0.220)",----," 0.877 ( 0.696,  1.105)",ari
@@ -49,37 +77,37 @@ Nutrition,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.098 (0.079, 0.1
 Nutrition,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.034 (0.021, 0.046)",----," 0.824 ( 0.481,  1.411)",ari
 Nutrition,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.271 (0.238, 0.303)",----," 0.922 ( 0.785,  1.082)",ari
 Nutrition,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.411 (0.363, 0.460)",----," 0.899 ( 0.763,  1.059)",ari
-Nutrition,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.333 (0.264, 0.403)",----," 0.615 ( 0.490,  0.772)",virus
-Nutrition,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.034 (0.022, 0.046)",----," 0.450 ( 0.288,  0.704)",virus
-Nutrition,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.411 (0.319, 0.503)","-0.204 (-0.325, -0.082)",----,virus
-Nutrition,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.083 (0.043, 0.123)",----," 0.739 ( 0.403,  1.355)",virus
+Nutrition,Any Enteric Viruses,"0.495 (0.423, 0.568)","0.330 (0.261, 0.398)",----," 0.642 ( 0.507,  0.814)",virus
+Nutrition,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.034 (0.022, 0.046)",----," 0.451 ( 0.289,  0.706)",virus
+Nutrition,Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.406 (0.315, 0.497)","-0.176 (-0.299, -0.052)",----,virus
+Nutrition,Adenovirus 40/41,"0.103 (0.047, 0.159)","0.082 (0.043, 0.122)",----," 0.736 ( 0.403,  1.342)",virus
 Nutrition,Norovirus GII,"0.191 (0.146, 0.237)","0.159 (0.110, 0.208)",----," 0.806 ( 0.543,  1.196)",virus
-Nutrition,Sapovirus,"0.195 (0.142, 0.248)","0.100 (0.062, 0.137)",----," 0.483 ( 0.284,  0.821)",virus
-WSH,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.630 (0.582, 0.679)",----," 0.812 ( 0.725,  0.908)",any_infection
-WSH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.423 (0.395, 0.451)",----," 0.972 ( 0.876,  1.078)",any_infection
-WSH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.079 (0.060, 0.098)",----," 0.633 ( 0.450,  0.889)",diarrhea
-WSH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.204 (0.179, 0.229)",----," 0.903 ( 0.766,  1.066)",ari
-WSH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.104 (0.083, 0.126)",----," 0.768 ( 0.609,  0.968)",ari
-WSH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.028 (0.016, 0.040)",----," 0.679 ( 0.372,  1.238)",ari
-WSH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.287 (0.256, 0.317)",----," 0.975 ( 0.842,  1.128)",ari
-WSH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.443 (0.390, 0.496)",----," 1.010 ( 0.851,  1.200)",ari
-WSH,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.275 (0.225, 0.324)",----," 0.491 ( 0.389,  0.619)",virus
-WSH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.026 (0.016, 0.037)",----," 0.317 ( 0.190,  0.530)",virus
-WSH,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.317 (0.251, 0.382)","-0.320 (-0.444, -0.197)",----,virus
-WSH,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.058 (0.031, 0.085)",----," 0.452 ( 0.220,  0.928)",virus
-WSH,Norovirus GII,"0.191 (0.146, 0.237)","0.090 (0.061, 0.119)",----," 0.437 ( 0.288,  0.664)",virus
-WSH,Sapovirus,"0.195 (0.142, 0.248)","0.085 (0.052, 0.119)",----," 0.403 ( 0.252,  0.644)",virus
-NWSH,"Diarrhea, Fever, ARI, or Enteric Virus","0.763 (0.714, 0.812)","0.649 (0.596, 0.703)",----," 0.837 ( 0.748,  0.937)",any_infection
-NWSH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.355 (0.318, 0.392)",----," 0.817 ( 0.719,  0.928)",any_infection
-NWSH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.071 (0.049, 0.093)",----," 0.575 ( 0.392,  0.844)",diarrhea
-NWSH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.165 (0.135, 0.195)",----," 0.737 ( 0.585,  0.928)",ari
-NWSH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.097 (0.077, 0.117)",----," 0.724 ( 0.553,  0.948)",ari
-NWSH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.026 (0.012, 0.039)",----," 0.621 ( 0.340,  1.135)",ari
-NWSH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.257 (0.224, 0.289)",----," 0.880 ( 0.754,  1.026)",ari
-NWSH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.406 (0.351, 0.462)",----," 0.916 ( 0.773,  1.085)",ari
-NWSH,Any Enteric Viruses,"0.522 (0.451, 0.594)","0.333 (0.273, 0.393)",----," 0.624 ( 0.504,  0.773)",virus
-NWSH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.021 (0.011, 0.031)",----," 0.287 ( 0.162,  0.507)",virus
-NWSH,Number of Enteric Viruses,"0.599 (0.501, 0.698)","0.405 (0.323, 0.487)","-0.212 (-0.335, -0.089)",----,virus
-NWSH,Adenovirus 40/41,"0.104 (0.048, 0.160)","0.071 (0.038, 0.103)",----," 0.571 ( 0.299,  1.089)",virus
-NWSH,Norovirus GII,"0.191 (0.146, 0.237)","0.153 (0.109, 0.197)",----," 0.795 ( 0.533,  1.186)",virus
-NWSH,Sapovirus,"0.195 (0.142, 0.248)","0.119 (0.080, 0.157)",----," 0.606 ( 0.396,  0.927)",virus
+Nutrition,Sapovirus,"0.185 (0.134, 0.237)","0.099 (0.062, 0.137)",----," 0.507 ( 0.298,  0.864)",virus
+WASH,"Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.633 (0.585, 0.682)",----," 0.838 ( 0.745,  0.943)",any_infection
+WASH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.423 (0.395, 0.451)",----," 0.972 ( 0.876,  1.078)",any_infection
+WASH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.079 (0.060, 0.098)",----," 0.633 ( 0.450,  0.889)",diarrhea
+WASH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.204 (0.179, 0.229)",----," 0.903 ( 0.766,  1.066)",ari
+WASH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.104 (0.083, 0.126)",----," 0.768 ( 0.609,  0.968)",ari
+WASH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.028 (0.016, 0.040)",----," 0.679 ( 0.372,  1.238)",ari
+WASH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.287 (0.256, 0.317)",----," 0.975 ( 0.842,  1.128)",ari
+WASH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.443 (0.390, 0.496)",----," 1.010 ( 0.851,  1.200)",ari
+WASH,Any Enteric Viruses,"0.495 (0.423, 0.568)","0.266 (0.219, 0.314)",----," 0.502 ( 0.396,  0.636)",virus
+WASH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.026 (0.016, 0.037)",----," 0.318 ( 0.190,  0.531)",virus
+WASH,Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.307 (0.244, 0.370)","-0.296 (-0.418, -0.174)",----,virus
+WASH,Adenovirus 40/41,"0.103 (0.047, 0.159)","0.057 (0.031, 0.083)",----," 0.450 ( 0.219,  0.923)",virus
+WASH,Norovirus GII,"0.191 (0.146, 0.237)","0.090 (0.061, 0.119)",----," 0.437 ( 0.288,  0.664)",virus
+WASH,Sapovirus,"0.185 (0.134, 0.237)","0.084 (0.051, 0.118)",----," 0.418 ( 0.261,  0.669)",virus
+N+WASH,"Diarrhea, Fever, ARI, or Enteric Virus","0.748 (0.697, 0.798)","0.643 (0.591, 0.696)",----," 0.852 ( 0.758,  0.958)",any_infection
+N+WASH,"Diarrhea, Fever, or ARI","0.422 (0.390, 0.454)","0.355 (0.318, 0.392)",----," 0.817 ( 0.719,  0.928)",any_infection
+N+WASH,Diarrhea (Past 7 Days),"0.116 (0.092, 0.140)","0.071 (0.049, 0.093)",----," 0.575 ( 0.392,  0.844)",diarrhea
+N+WASH,ARI (Past 7 Days),"0.217 (0.183, 0.250)","0.165 (0.135, 0.195)",----," 0.737 ( 0.585,  0.928)",ari
+N+WASH,ARI with Fever (Past 7 Days),"0.131 (0.107, 0.155)","0.097 (0.077, 0.117)",----," 0.724 ( 0.553,  0.948)",ari
+N+WASH,Difficulty Breathing (Past 7 Days),"0.040 (0.026, 0.054)","0.026 (0.012, 0.039)",----," 0.621 ( 0.340,  1.135)",ari
+N+WASH,Fever (Past 7 Days),"0.288 (0.254, 0.323)","0.257 (0.224, 0.289)",----," 0.880 ( 0.754,  1.026)",ari
+N+WASH,Fever (Past 14 Days),"0.443 (0.391, 0.495)","0.406 (0.351, 0.462)",----," 0.916 ( 0.773,  1.085)",ari
+N+WASH,Any Enteric Viruses,"0.495 (0.423, 0.568)","0.323 (0.264, 0.383)",----," 0.640 ( 0.505,  0.809)",virus
+N+WASH,Any Enteric Virus with Diarrhea,"0.063 (0.041, 0.084)","0.021 (0.011, 0.031)",----," 0.287 ( 0.162,  0.507)",virus
+N+WASH,Number of Enteric Viruses,"0.568 (0.470, 0.667)","0.393 (0.312, 0.473)","-0.191 (-0.321, -0.062)",----,virus
+N+WASH,Adenovirus 40/41,"0.103 (0.047, 0.159)","0.070 (0.038, 0.102)",----," 0.565 ( 0.297,  1.076)",virus
+N+WASH,Norovirus GII,"0.191 (0.146, 0.237)","0.153 (0.109, 0.197)",----," 0.795 ( 0.533,  1.186)",virus
+N+WASH,Sapovirus,"0.185 (0.134, 0.237)","0.117 (0.079, 0.155)",----," 0.629 ( 0.407,  0.973)",virus

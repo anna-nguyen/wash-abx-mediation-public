@@ -2,7 +2,6 @@ rm(list = ls())
 source(here::here("0-config.R"))
 
 negcontrol_mediated_effects = readRDS(paste0(mediated_effects_results_directory, "negcontrol_mediated_effects.RDS"))
-negcontrol_mediated_effects_interactions = readRDS(paste0(mediated_effects_results_directory, "negcontrol_mediated_effects_with_interaction.RDS")) 
 
 #####################
 # with no interactions

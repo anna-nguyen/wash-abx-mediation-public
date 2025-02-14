@@ -33,3 +33,5 @@ tr_mediator_effects_adjusted =
   mutate(sig_effect = ifelse(pval < 0.05, T, F))
 
 saveRDS(tr_mediator_effects_adjusted, paste0(tr_med_res_directory, "tr_mediator_effects_adjusted.RDS"))
+
+

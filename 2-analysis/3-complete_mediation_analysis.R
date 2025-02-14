@@ -9,8 +9,8 @@ merged_df = readRDS(merged_df_filepath)
 mediator_outcome_effects = readRDS(paste0(med_out_res_directory, "mediator_outcome_effects.RDS"))
 
 filtered_mediator_outcomes = mediator_outcome_effects %>% 
-  filter(sig_effect) %>% 
-  select(mediator, outcome)
+  filter(sig_effect | (outcome %in% continuous_outcomes & est >= 0.5) | (!(outcome %in% continuous_outcomes) & est >= 1.1)) %>% 
+  select(mediator, outcome, sig_effect, est)
 
 # Create grid of all treatment + mediator + outcome combinations, for significant mediator-outcome effects
 tr_med_out_grid = 

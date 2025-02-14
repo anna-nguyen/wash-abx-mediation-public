@@ -27,11 +27,15 @@ mediation_plt =
   geom_hline(yintercept = 7.5, linewidth = 8, color = "white") + 
   geom_hline(yintercept = 6.5, linewidth = 8, color = "white") + 
   geom_hline(yintercept = 5.5, linewidth = 8, color = "white") +
-  geom_hline(yintercept = 2.5, linewidth = 8, color = "white")
+  geom_hline(yintercept = 2.5, linewidth = 8, color = "white") + 
+  labs(title = NULL)
 
-mediation_plt
+mediation_plt + theme(text = element_text(size = 20))
 
-ggsave(here("figures", "Figure2_mediated_effects.png"),
+ggsave(here("figures", "Figure3_mediated_effects.png"),
        mediation_plt,
        height = 3, width = 5, bg = "white")
+
+mediation_plt + 
+  ggtitle("Natural Indirect Effect of WASH + Nutrition Interventions on Child Antibiotic Use, By Mediator")
 

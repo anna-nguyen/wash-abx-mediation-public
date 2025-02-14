@@ -38,7 +38,7 @@ format_table_s7 = function(med_str, out_str) {
 med_out_grid = expand_grid(med = mediator_list, out = outcome_list)
 
 med_out_grid_s7 = med_out_grid %>% filter(!(med %in% symp_mediators))
-med_out_grid_s11 = med_out_grid %>% filter(med %in% symp_mediators, med != "n_virus_symp")
+med_out_grid_s14 = med_out_grid %>% filter(med %in% symp_mediators, med != "n_virus_symp")
 
 table_s7 = lapply(1:nrow(med_out_grid_s7), function(i) format_table_s7(med_out_grid_s7$med[i], med_out_grid_s7$out[i])) %>% 
   bind_rows() %>% 
@@ -50,7 +50,7 @@ table_s7 = lapply(1:nrow(med_out_grid_s7), function(i) format_table_s7(med_out_g
 
 write_csv(table_s7, here::here("tables", "TableS7-med_out_effects.csv"))
 
-table_s11 = lapply(1:nrow(med_out_grid_s11), function(i) format_table_s7(med_out_grid_s11$med[i], med_out_grid_s11$out[i])) %>% 
+table_s14 = lapply(1:nrow(med_out_grid_s14), function(i) format_table_s7(med_out_grid_s14$med[i], med_out_grid_s14$out[i])) %>% 
   bind_rows() %>% 
   label_mediators() %>% 
   label_outcomes() %>% 
@@ -58,5 +58,5 @@ table_s11 = lapply(1:nrow(med_out_grid_s11), function(i) format_table_s7(med_out
   filter(!is.na(mean_diff) | !is.na(prev_ratio)) %>% 
   select(mediator_label, outcome_label, everything(), -mediator, -outcome)
 
-write_csv(table_s11, here::here("tables", "TableS11-symp_med_out_effects.csv"))
+write_csv(table_s14, here::here("tables", "TableS14-symp_med_out_effects.csv"))
 

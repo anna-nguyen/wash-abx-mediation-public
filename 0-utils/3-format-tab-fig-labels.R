@@ -3,17 +3,17 @@ label_treatments = function(df) {
     mutate(treatment_label = 
              case_when(tr == "tr_pooled" ~ "Pooled Intervention",
                        tr == "tr_n" ~ "Nutrition",
-                       tr == "tr_n_pooled" ~ "Pooled Nutrition + NWSH",
-                       tr == "tr_n_wsh" ~ "NWSH",
-                       tr == "tr_wsh" ~ "WSH",
-                       tr == "tr_wsh_pooled" ~ "Pooled WSH + NWSH"),
+                       tr == "tr_n_pooled" ~ "Pooled Nutrition\nand N+WASH",
+                       tr == "tr_n_wsh" ~ "N+WASH",
+                       tr == "tr_wsh" ~ "WASH",
+                       tr == "tr_wsh_pooled" ~ "Pooled WASH\nand N+WASH"),
            treatment_label = factor(treatment_label, 
-                                    levels = c("Pooled Intervention", "Pooled Nutrition + NWSH", "Pooled WSH + NWSH", "Nutrition", "WSH", "NWSH")))
+                                    levels = c("Pooled Intervention", "Pooled Nutrition\nand N+WASH", "Pooled WASH\nand N+WASH", "Nutrition", "WASH", "N+WASH")))
 }
 
 filter_mediators = function(df) {
   df %>% 
-    filter(mediator %in% c("diar7d", "ari7d", "ari_fever7d", "fever7d", "n_virus", "pos_virus", "symp_virus", "any_infection_14mo"))
+    filter(mediator %in% c("diar7d", "ari7d", "ari_fever7d", "fever7d", "pos_virus", "symp_virus", "any_infection_14mo"))
 }
 
 label_mediators = function(df, include_time_labels = T) {

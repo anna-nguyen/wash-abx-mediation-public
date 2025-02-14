@@ -10,7 +10,7 @@ ab_df = read_csv(ab_df_filepath) %>%
   filter(round %in% c(2, 3), !is.na(abany), !is.na(tr_label))
 
 ab_df = ab_df %>% 
-  select(childid, round, cluster_id, block, tr_label, abtimes, abany, abmult, ablast2wks, ablastmo, abdays, any_of(covariate_list))
+  select(dataid, childid, round, cluster_id, block, tr_label, abtimes, abany, abmult, ablast2wks, ablastmo, abdays, any_of(covariate_list))
   
 remaining_covars = covariate_list[!(covariate_list %in% colnames(ab_df))]
 
@@ -24,8 +24,9 @@ ages = read_csv(cleaned_wash_filepath) %>%
          childid = str_remove(dataid, "^0+"),
          childid = paste0(childid, childno) %>% as.numeric(), 
          round = svy + 1, 
-         agem = round(agedays/30, 1)) %>% 
-  select(childid, round, agem)
+         agem = round(agedays/30, 1),
+         svydate = lubridate::dmy(svydate)) %>% 
+  select(childid, round, svydate, agem) 
 
 midline_child_df = read_csv(midline_child_df_filepath) %>% 
   mutate(childid = str_remove(dataid, "^0+"),
@@ -161,34 +162,46 @@ Ct.Cutoff <- data.frame(organism = c("Adenovirus40_41", "Sapovirus", "Norovirus 
   mutate(cq_cutoff = ((35 - OR_Ct)/3.322 ) + 3.699) %>%
   select(organism, OR_Ct, cq_cutoff) 
 
-
-virus_list = c("Adenovirus40_41", "Norovirus GII", "Sapovirus")
-virus_cutoffs = Ct.Cutoff %>%
+Ct.Cutoff <- data.frame(organism = c("Adenovirus40_41", "Astrovirus", "Norovirus GII", "Rotavirus", "Sapovirus", "Campylobacter", "Shigella_EIEC", "ETEC.any", "EPEC.any", "Cryptosporidium"),
+                        OR_Ct = c(30.2, 28.9, 28.7, 31.5, 28.2, 23.7, 30.4, 25.4, 23.5, 25.6)) %>%
+  mutate(cq_cutoff = ((35 - OR_Ct)/3.322 ) + 3.699) %>%
   select(organism, cq_cutoff) %>%
-  filter(organism %in% virus_list) %>%
   pivot_wider(names_from = "organism", values_from = "cq_cutoff")
+colnames(Ct.Cutoff) = paste0(colnames(Ct.Cutoff), "_cutoff")
 
-colnames(virus_cutoffs) = paste0(colnames(virus_cutoffs), "_cutoff")
+virus_list = c("Norovirus GI", "Norovirus GII", "Astrovirus", "Adenovirus40_41", "Rotavirus", "Sapovirus")
+bacteria_list = c("EAEC", "ETEC.any", "EPEC.any", "STEC", "Shigella_EIEC", "Salmonella", "B.fragilis", "H.pylori", "V.cholerae", "C.difficile", "Plesiomonas", "Campylobacter", "Aeromonas")
+parasite_list = c("Ancyclostoma", "pan Entamoeba", "Giardia", "Cryptosporidium", "Ascaris", "Trichuris",  "Schistosoma", "Cyclospora", "Isospora","Blastocystis", "E.bieneusi")
+
+create_symp_cutoff_indicators = function(df, pathogen) {
+  cutoff_column <- paste0(pathogen, "_cutoff")
+  new_column <- paste0("pos_", pathogen, "_symp")
+  return(df %>% mutate(!!new_column := if_else(!!sym(pathogen) >= !!sym(cutoff_column), 1, 0)))
+}
 
 path_df = readRDS(path_df_filepath) %>%
   filter(childid != 68071) %>%  # This is a stool sample that we have for which we have no information on consent/collection. Likely mislabeled, but discrepancy never identified, so discard.
-  bind_cols(virus_cutoffs) %>%
-  mutate(pos_Adenovirus40_41_symp = (Adenovirus40_41 >= Adenovirus40_41_cutoff),
-         pos_Adenovirus40_41_symp = ifelse(pos_Adenovirus40_41 == 0, 0, pos_Adenovirus40_41_symp),
-         pos_Norovirus_GII = ifelse(`Norovirus GII` > 0, 1, 0), 
-         pos_Norovirus_GII = ifelse(is.na(pos_Norovirus_GII), 0, pos_Norovirus_GII), 
-         pos_Norovirus_GII_symp = (`Norovirus GII` >= `Norovirus GII_cutoff`),
-         pos_Norovirus_GII_symp = ifelse(pos_Norovirus_GII == 0, 0, pos_Norovirus_GII_symp),
-         pos_Sapovirus_symp = (Sapovirus >= Sapovirus_cutoff),
-         pos_Sapovirus_symp = ifelse(pos_Sapovirus == 0, 0, pos_Sapovirus_symp),
-         n_virus_symp = pos_Sapovirus_symp + pos_Norovirus_GII_symp + pos_Adenovirus40_41_symp, 
-         pos_virus_symp = ifelse(n_virus_symp > 0, 1, 0)) %>% 
   select(childid, 
-         pos_Adenovirus40_41, pos_Adenovirus40_41_symp, 
-         pos_Norovirus_GII, pos_Norovirus_GII_symp,
-         pos_Sapovirus, pos_Sapovirus_symp, 
-         n_virus, pos_virus, n_virus_symp, pos_virus_symp) %>% 
-  mutate(round = 2)
+         n_virus, pos_virus, all_of(virus_list), 
+         n_bact, pos_bact, all_of(bacteria_list), 
+         n_parasite, pos_parasite, all_of(parasite_list)) %>% 
+  mutate(across(all_of(virus_list), ~ if_else(. > 1.8495, 1, 0), .names = "pos_{col}")) %>% 
+  mutate(across(all_of(bacteria_list), ~ if_else(. > 1.8495, 1, 0), .names = "pos_{col}"))%>% 
+  mutate(across(all_of(parasite_list), ~ if_else(. > 1.8495, 1, 0), .names = "pos_{col}")) %>% 
+  bind_cols(Ct.Cutoff)
+
+for (pathogen in str_remove(colnames(Ct.Cutoff), "_cutoff")) {
+  path_df = create_symp_cutoff_indicators(path_df, pathogen)
+} 
+
+path_df = path_df %>% 
+  mutate(across(everything(), ~ ifelse(is.na(.), 0, .))) %>% 
+  mutate(n_virus_symp = rowSums(select(., ends_with("_symp"))), 
+         pos_virus_symp = ifelse(n_virus_symp > 0, 1, 0),
+         round = 2) %>% 
+  select(-all_of(virus_list), -all_of(bacteria_list), -all_of(parasite_list), -ends_with("_cutoff"))
+
+colnames(path_df) = str_replace(colnames(path_df), " ", "_")
 
 ###############################################
 # Process pathogen data
@@ -222,11 +235,13 @@ merged_df = ab_df %>%
          tr_n_pooled = case_when(tr_label %in% c("Nutrition", "Nutrition + WSH") ~ "pooled_N",
                                  tr_label == "Control" ~ "Control")) %>% 
   select(-all_of(covariate_list), all_of(covariate_list)) %>% 
-  select(childid, cluster_id, block, round, starts_with("tr"), timeptsub, everything()) 
+  select(dataid, childid, cluster_id, block, round, starts_with("tr"), timeptsub, everything()) 
 
 sapply(colnames(merged_df), function(colname) sum(!is.na(merged_df[colname])))
 sapply(colnames(merged_df), function(colname) sum(is.na(merged_df[colname])))
 sapply(colnames(merged_df), function(colname) mean(is.na(merged_df[colname]))*100 %>% round(1))
 
 saveRDS(merged_df, merged_df_filepath)
+
+
 

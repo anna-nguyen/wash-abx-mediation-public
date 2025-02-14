@@ -23,7 +23,7 @@ tr_med_plt =
                y_type = "categorical",  
                color_var = "mediator_group", 
                include_facets = FALSE, 
-               plt_title = "A) Intervention-Mediator Effects") +
+               plt_title = "a) Intervention-Mediator Effects") +
   theme(legend.position = "none")  + 
   geom_hline(yintercept = 7.5, linewidth = 8, color = "white") + 
   geom_hline(yintercept = 6.5, linewidth = 8, color = "white") +
@@ -36,7 +36,7 @@ med_out_plt =
                y_type = "categorical",  
                color_var = "mediator_group", 
                include_facets = FALSE, 
-               plt_title = "B) Mediator-Outcome Effects") +
+               plt_title = "b) Mediator-Outcome Effects") +
   theme(legend.position = "none")  + 
   geom_hline(yintercept = 7.5, linewidth = 8, color = "white") + 
   geom_hline(yintercept = 6.5, linewidth = 8, color = "white") +

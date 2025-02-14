@@ -11,7 +11,7 @@ fit_tr_mediator_model = fit_mediator_outcome_model = fit_tr_outcome_model =
     formula_string = model_params_row$formula_string
     
     if (adjusted){
-      filtered_covariates = screen_covariates(df = model_df, outcome_str = model_params_row$y)
+      filtered_covariates = covariate_list # screen_covariates(df = model_df, outcome_str = model_params_row$y)
       if(length(filtered_covariates) > 0) {
         covariates_formula = paste(filtered_covariates, collapse = " + ")
         formula_string = glue("{formula_string} + {covariates_formula}") 

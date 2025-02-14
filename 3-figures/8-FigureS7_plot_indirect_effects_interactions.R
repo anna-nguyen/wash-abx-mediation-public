@@ -76,7 +76,8 @@ tr_interaction_grid =
   grid.arrange(tr_interaction_plots[[1]] + theme(legend.position = "none"),
                tr_interaction_plots[[2]] + theme(legend.position = "none"), 
                tr_interaction_plots[[3]] + theme(legend.position = "none"),
-               grid.arrange(tr_interaction_plots[[4]], ggplot(), nrow = 1), 
+               grid.arrange(tr_interaction_plots[[4]], 
+                            rectGrob(gp=gpar(fill="white", lwd=0)), nrow = 1), 
                heights = c(5, 2, 2, 3),
                ncol = 1)
 

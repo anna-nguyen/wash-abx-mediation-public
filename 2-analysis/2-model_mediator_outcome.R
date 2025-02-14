@@ -27,3 +27,4 @@ mediator_outcome_effects =
   mutate(sig_effect = ifelse(pval < 0.05, T, F))
 
 saveRDS(mediator_outcome_effects, paste0(med_out_res_directory, "mediator_outcome_effects.RDS"))
+

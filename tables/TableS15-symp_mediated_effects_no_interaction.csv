@@ -1,0 +1,57 @@
+treatment_label,mediator_label,outcome_label,prev_diff,prev_ratio,mediator_group,outcome_group
+Pooled Intervention,Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.002 (-0.012,  0.004)","0.997 (0.976, 1.025)",virus,Past 3 Months
+Pooled Intervention,Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.003 (-0.011,  0.001)","0.997 (0.988, 1.004)",virus,Past 1 Month
+Pooled Intervention,Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.004 (-0.013,  0.001)","0.995 (0.985, 1.002)",virus,Past 1 Month
+Pooled Intervention,Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.003 (-0.011,  0.003)","0.995 (0.978, 1.013)",virus,Past 3 Months
+"Pooled Nutrition
+and N+WASH",Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.000 (-0.008,  0.007)","1.005 (0.983, 1.043)",virus,Past 3 Months
+"Pooled Nutrition
+and N+WASH",Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.001 (-0.007,  0.003)","1.000 (0.993, 1.008)",virus,Past 1 Month
+"Pooled Nutrition
+and N+WASH",Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.003 (-0.012,  0.002)","0.996 (0.985, 1.005)",virus,Past 1 Month
+"Pooled Nutrition
+and N+WASH",Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.002 (-0.012,  0.003)","0.998 (0.981, 1.017)",virus,Past 3 Months
+"Pooled WASH
+and N+WASH",Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.003 (-0.021,  0.008)","0.997 (0.966, 1.042)",virus,Past 3 Months
+"Pooled WASH
+and N+WASH",Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.004 (-0.012,  0.001)","0.996 (0.984, 1.004)",virus,Past 1 Month
+"Pooled WASH
+and N+WASH",Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.006 (-0.016,  0.000)","0.994 (0.982, 1.004)",virus,Past 1 Month
+"Pooled WASH
+and N+WASH",Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.016,  0.001)","0.994 (0.975, 1.012)",virus,Past 3 Months
+Nutrition,Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.001 (-0.010,  0.004)","1.001 (0.979, 1.034)",virus,Past 3 Months
+Nutrition,Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.001 (-0.008,  0.004)","1.000 (0.991, 1.009)",virus,Past 1 Month
+Nutrition,Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.004 (-0.017,  0.004)","0.996 (0.982, 1.012)",virus,Past 1 Month
+Nutrition,Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.003 (-0.015,  0.004)","0.996 (0.970, 1.025)",virus,Past 3 Months
+WASH,Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.019,  0.004)","0.992 (0.966, 1.017)",virus,Past 3 Months
+WASH,Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.005 (-0.018,  0.006)","0.994 (0.974, 1.013)",virus,Past 1 Month
+WASH,Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.009 (-0.027,  0.002)","0.988 (0.970, 1.002)",virus,Past 1 Month
+WASH,Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.009 (-0.028,  0.003)","0.985 (0.954, 1.014)",virus,Past 3 Months
+N+WASH,Adenovirus 40/41 (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)"," 0.001 (-0.016,  0.013)","1.013 (0.970, 1.103)",virus,Past 3 Months
+N+WASH,Norovirus GII (Symptomatic),"Any Antibiotics
+(Past Month)","-0.001 (-0.010,  0.005)","1.000 (0.992, 1.012)",virus,Past 1 Month
+N+WASH,Sapovirus (Symptomatic),"Any Antibiotics
+(Past Month)","-0.004 (-0.019,  0.003)","0.997 (0.982, 1.011)",virus,Past 1 Month
+N+WASH,Sapovirus (Symptomatic),"Multiple Episodes of Antibiotic Use
+(Past 3 Months)","-0.005 (-0.018,  0.003)","0.998 (0.974, 1.029)",virus,Past 3 Months

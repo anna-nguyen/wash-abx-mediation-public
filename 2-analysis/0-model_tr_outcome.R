@@ -4,7 +4,7 @@ source(here::here("0-config.R"))
 set.seed(0)
 
 # Load data
-merged_df = readRDS(merged_df_filepath)
+merged_df = readRDS(merged_df_filepath) 
 
 # Create grid of all treatment + outcome combinations
 tr_out_grid = expand_grid(tr_list, outcome_list) %>%

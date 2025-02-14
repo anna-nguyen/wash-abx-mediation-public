@@ -1,0 +1,9 @@
+INFO [2024-12-17 13:32:35] $x
+INFO [2024-12-17 13:32:35] prev_28months
+INFO [2024-12-17 13:32:35] 
+INFO [2024-12-17 13:32:35] $category.names
+INFO [2024-12-17 13:32:35] c("Diarrhea", "ARI", "Fever")
+INFO [2024-12-17 13:32:35] 
+INFO [2024-12-17 13:32:35] $filename
+INFO [2024-12-17 13:32:35] here::here("figures", "mediators_venn_diagram_28mo.png")
+INFO [2024-12-17 13:32:35] 

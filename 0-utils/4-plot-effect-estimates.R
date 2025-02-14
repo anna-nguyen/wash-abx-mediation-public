@@ -14,6 +14,11 @@ plot_effects = function(df, y_var, y_type, facet_var = NA, color_var = "sig_effe
     color_labels = c("Past 1 Month", "Past 3 Months")
   }
   
+  if (color_var == "pathogen_color"){
+    color_values = c("#653239", "#D0B4AD") 
+    color_labels = c("agg", "individual")
+  }
+  
   base_plot = 
     ggplot(df %>% filter(type == y_type), 
            aes_string(x = "est", y = y_var, color = color_var)) + 

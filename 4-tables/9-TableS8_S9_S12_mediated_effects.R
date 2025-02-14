@@ -41,12 +41,12 @@ table_s8 = mediated_effects_s8 %>%
 write_csv(table_s8, here::here("tables", "TableS8-mediated_effects_no_interaction.csv"))
 
 
-# Table S12: Mediated Effects, no interactions, diarrheal etiology ----
-mediated_effects_s12 = mediated_effects %>% filter(mediator %in% symp_mediators, mediator != "n_virus_symp") 
-mediated_effects_RR_s12 = mediated_effects_RR  %>% filter(mediator %in% symp_mediators, mediator != "n_virus_symp")
+# Table s15: Mediated Effects, no interactions, diarrheal etiology ----
+mediated_effects_s15 = mediated_effects %>% filter(mediator %in% symp_mediators, mediator != "n_virus_symp") 
+mediated_effects_RR_s15 = mediated_effects_RR  %>% filter(mediator %in% symp_mediators, mediator != "n_virus_symp")
 
-table_s12 = mediated_effects_s12 %>% 
-  left_join(mediated_effects_RR_s12, by = c("tr", "mediator", "outcome")) %>% 
+table_s15 = mediated_effects_s15 %>% 
+  left_join(mediated_effects_RR_s15, by = c("tr", "mediator", "outcome")) %>% 
   mutate(prev_ratio = ifelse(is.na(prev_ratio), "----", prev_ratio)) %>% 
   label_treatments() %>% 
   label_mediators() %>% 
@@ -54,7 +54,7 @@ table_s12 = mediated_effects_s12 %>%
   arrange(treatment_label, mediator_label, outcome_label) %>% 
   select(treatment_label, mediator_label, outcome_label, everything(), -tr, -mediator, -outcome)
 
-write_csv(table_s12, here::here("tables", "TableS12-symp_mediated_effects_no_interaction.csv"))
+write_csv(table_s15, here::here("tables", "TableS15-symp_mediated_effects_no_interaction.csv"))
 
 # Table s9: Mediated Effects, interactions ----
 table_s9 = readRDS(paste0(mediated_effects_results_directory, "mediated_effects_with_interaction.RDS")) %>% 

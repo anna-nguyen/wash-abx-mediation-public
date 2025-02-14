@@ -1,0 +1,181 @@
+pathogen_group,outcome_label,mediator_label,prev_diff
+Bacteria,"Any Antibiotics
+(Past Month)",Aeromonas,"-0.003 (-0.011,  0.001)"
+Bacteria,"Any Antibiotics
+(Past Month)",B.fragilis," 0.001 (-0.003,  0.006)"
+Bacteria,"Any Antibiotics
+(Past Month)",C.difficile," 0.000 (-0.003,  0.003)"
+Bacteria,"Any Antibiotics
+(Past Month)",Campylobacter,"-0.003 (-0.014,  0.005)"
+Bacteria,"Any Antibiotics
+(Past Month)",EAEC,"-0.001 (-0.010,  0.004)"
+Bacteria,"Any Antibiotics
+(Past Month)",EPEC (Any)," 0.004 (-0.005,  0.015)"
+Bacteria,"Any Antibiotics
+(Past Month)",ETEC (Any)," 0.001 (-0.002,  0.004)"
+Bacteria,"Any Antibiotics
+(Past Month)",Plesiomonas," 0.001 (-0.003,  0.006)"
+Bacteria,"Any Antibiotics
+(Past Month)",Shigella/EIEC," 0.000 (-0.003,  0.002)"
+Bacteria,"Any Antibiotics
+(Past Month)",STEC," 0.000 (-0.002,  0.003)"
+Parasite,"Any Antibiotics
+(Past Month)",Any Parasite," 0.000 (-0.003,  0.005)"
+Parasite,"Any Antibiotics
+(Past Month)",Cryptosporidium," 0.001 (-0.003,  0.007)"
+Parasite,"Any Antibiotics
+(Past Month)",E.bieneusi," 0.000 (-0.003,  0.002)"
+Parasite,"Any Antibiotics
+(Past Month)",Giardia," 0.000 (-0.005,  0.004)"
+Virus,"Any Antibiotics
+(Past Month)",Any Virus,"-0.015 (-0.032, -0.004)"
+Virus,"Any Antibiotics
+(Past Month)",Adenovirus 40/41,"-0.001 (-0.010,  0.006)"
+Virus,"Any Antibiotics
+(Past Month)",Norovirus GII,"-0.002 (-0.008,  0.002)"
+Virus,"Any Antibiotics
+(Past Month)",Sapovirus,"-0.004 (-0.012,  0.001)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",Aeromonas,"-0.004 (-0.012,  0.000)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",B.fragilis,"-0.001 (-0.006,  0.003)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",C.difficile," 0.000 (-0.002,  0.002)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",Campylobacter,"-0.002 (-0.009,  0.004)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",EAEC," 0.000 (-0.006,  0.003)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",EPEC (Any)," 0.002 (-0.003,  0.009)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",ETEC (Any)," 0.001 (-0.002,  0.004)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",Plesiomonas," 0.000 (-0.004,  0.003)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",Shigella/EIEC," 0.000 (-0.003,  0.003)"
+Bacteria,"Any Antibiotics
+(Past 3 Months)",STEC," 0.000 (-0.002,  0.004)"
+Parasite,"Any Antibiotics
+(Past 3 Months)",Any Parasite," 0.000 (-0.002,  0.004)"
+Parasite,"Any Antibiotics
+(Past 3 Months)",Cryptosporidium," 0.000 (-0.002,  0.004)"
+Parasite,"Any Antibiotics
+(Past 3 Months)",E.bieneusi," 0.000 (-0.002,  0.003)"
+Parasite,"Any Antibiotics
+(Past 3 Months)",Giardia," 0.000 (-0.003,  0.003)"
+Virus,"Any Antibiotics
+(Past 3 Months)",Any Virus,"-0.007 (-0.019,  0.002)"
+Virus,"Any Antibiotics
+(Past 3 Months)",Adenovirus 40/41," 0.000 (-0.007,  0.006)"
+Virus,"Any Antibiotics
+(Past 3 Months)",Norovirus GII," 0.000 (-0.004,  0.003)"
+Virus,"Any Antibiotics
+(Past 3 Months)",Sapovirus,"-0.002 (-0.009,  0.002)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",Aeromonas,"-0.019 (-0.093,  0.025)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",B.fragilis,"-0.001 (-0.037,  0.039)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",C.difficile," 0.002 (-0.032,  0.039)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",Campylobacter,"-0.024 (-0.126,  0.088)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",EAEC,"-0.009 (-0.074,  0.039)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",EPEC (Any)," 0.031 (-0.040,  0.122)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",ETEC (Any)," 0.006 (-0.029,  0.061)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",Plesiomonas," 0.002 (-0.034,  0.041)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",Shigella/EIEC," 0.012 (-0.037,  0.075)"
+Bacteria,"Days of Antibiotic Use
+(Past 3 Months)",STEC," 0.000 (-0.030,  0.031)"
+Parasite,"Days of Antibiotic Use
+(Past 3 Months)",Any Parasite," 0.007 (-0.044,  0.068)"
+Parasite,"Days of Antibiotic Use
+(Past 3 Months)",Cryptosporidium," 0.001 (-0.044,  0.051)"
+Parasite,"Days of Antibiotic Use
+(Past 3 Months)",E.bieneusi,"-0.010 (-0.070,  0.033)"
+Parasite,"Days of Antibiotic Use
+(Past 3 Months)",Giardia,"-0.001 (-0.036,  0.032)"
+Virus,"Days of Antibiotic Use
+(Past 3 Months)",Any Virus,"-0.016 (-0.126,  0.094)"
+Virus,"Days of Antibiotic Use
+(Past 3 Months)",Adenovirus 40/41," 0.018 (-0.057,  0.099)"
+Virus,"Days of Antibiotic Use
+(Past 3 Months)",Norovirus GII," 0.003 (-0.036,  0.048)"
+Virus,"Days of Antibiotic Use
+(Past 3 Months)",Sapovirus,"-0.001 (-0.089,  0.087)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",Aeromonas,"-0.006 (-0.022,  0.002)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",B.fragilis,"-0.001 (-0.009,  0.007)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",C.difficile," 0.000 (-0.005,  0.005)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",Campylobacter,"-0.006 (-0.025,  0.013)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",EAEC,"-0.002 (-0.014,  0.007)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",EPEC (Any)," 0.007 (-0.009,  0.027)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",ETEC (Any)," 0.000 (-0.005,  0.007)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",Plesiomonas," 0.001 (-0.005,  0.007)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",Shigella/EIEC," 0.000 (-0.006,  0.008)"
+Bacteria,"Episodes of Antibiotic Use
+(Past 3 Months)",STEC," 0.000 (-0.005,  0.006)"
+Parasite,"Episodes of Antibiotic Use
+(Past 3 Months)",Any Parasite," 0.002 (-0.006,  0.011)"
+Parasite,"Episodes of Antibiotic Use
+(Past 3 Months)",Cryptosporidium," 0.000 (-0.007,  0.007)"
+Parasite,"Episodes of Antibiotic Use
+(Past 3 Months)",E.bieneusi," 0.000 (-0.008,  0.005)"
+Parasite,"Episodes of Antibiotic Use
+(Past 3 Months)",Giardia," 0.000 (-0.006,  0.006)"
+Virus,"Episodes of Antibiotic Use
+(Past 3 Months)",Any Virus,"-0.008 (-0.030,  0.010)"
+Virus,"Episodes of Antibiotic Use
+(Past 3 Months)",Adenovirus 40/41,"-0.004 (-0.026,  0.011)"
+Virus,"Episodes of Antibiotic Use
+(Past 3 Months)",Norovirus GII," 0.001 (-0.006,  0.008)"
+Virus,"Episodes of Antibiotic Use
+(Past 3 Months)",Sapovirus," 0.001 (-0.010,  0.012)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Aeromonas,"-0.002 (-0.008,  0.001)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",B.fragilis," 0.000 (-0.002,  0.004)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",C.difficile," 0.000 (-0.003,  0.003)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Campylobacter,"-0.001 (-0.008,  0.005)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",EAEC,"-0.001 (-0.009,  0.005)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",EPEC (Any)," 0.002 (-0.003,  0.009)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",ETEC (Any)," 0.000 (-0.002,  0.004)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Plesiomonas," 0.001 (-0.002,  0.005)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Shigella/EIEC," 0.000 (-0.002,  0.002)"
+Bacteria,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",STEC," 0.000 (-0.002,  0.002)"
+Parasite,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Any Parasite," 0.000 (-0.003,  0.004)"
+Parasite,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Cryptosporidium," 0.000 (-0.003,  0.003)"
+Parasite,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",E.bieneusi,"-0.001 (-0.005,  0.002)"
+Parasite,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Giardia," 0.000 (-0.002,  0.003)"
+Virus,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Any Virus,"-0.004 (-0.015,  0.004)"
+Virus,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Adenovirus 40/41,"-0.002 (-0.013,  0.005)"
+Virus,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Norovirus GII," 0.000 (-0.003,  0.003)"
+Virus,"Multiple Episodes of Antibiotic Use
+(Past 3 Months)",Sapovirus,"-0.001 (-0.008,  0.004)"

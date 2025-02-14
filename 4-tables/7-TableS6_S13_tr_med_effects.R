@@ -37,7 +37,7 @@ format_table_s6 = function(tr_str, med_str) {
 
 tr_med_grid = expand_grid(tr = tr_list, med = mediator_list)
 tr_med_grid_s6 = tr_med_grid %>% filter(!(med %in% symp_mediators))
-tr_med_grid_s10 = tr_med_grid %>% filter(med %in% symp_mediators, med != "n_virus_symp")
+tr_med_grid_s13 = tr_med_grid %>% filter(med %in% symp_mediators, med != "n_virus_symp")
 
 table_s6 = lapply(1:nrow(tr_med_grid_s6), function(i) format_table_s6(tr_med_grid_s6$tr[i], tr_med_grid_s6$med[i])) %>% 
   bind_rows() %>% 
@@ -48,13 +48,13 @@ table_s6 = lapply(1:nrow(tr_med_grid_s6), function(i) format_table_s6(tr_med_gri
 
 write_csv(table_s6, here::here("tables", "TableS6-tr_mediator_effects.csv"))
 
-table_s10 = lapply(1:nrow(tr_med_grid_s10), function(i) format_table_s6(tr_med_grid_s10$tr[i], tr_med_grid_s10$med[i])) %>% 
+table_s13 = lapply(1:nrow(tr_med_grid_s13), function(i) format_table_s6(tr_med_grid_s13$tr[i], tr_med_grid_s13$med[i])) %>% 
   bind_rows() %>% 
   label_treatments() %>% 
   label_mediators() %>% 
   arrange(treatment_label, mediator_label) %>% 
   select(treatment_label, mediator_label, everything(), -tr, -mediator, -mean_diff) 
 
-write_csv(table_s10, here::here("tables", "TableS10-symp_tr_mediator_effects.csv"))
+write_csv(table_s13, here::here("tables", "TableS13-symp_tr_mediator_effects.csv"))
 
 
